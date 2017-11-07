@@ -52,6 +52,7 @@ class Dog
   end
 
   def self.create(name:, breed:)
+  
     dog = Dog.new(name: name, breed: breed)
     dog.save
     dog
@@ -105,6 +106,7 @@ class Dog
 
     else
         dog = self.create(name: name, breed: breed)
+        binding.pry
     end
     dog
   end
