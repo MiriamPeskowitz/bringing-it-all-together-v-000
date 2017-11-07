@@ -60,7 +60,7 @@ class Dog
     id[:row][0]
     name[:row][1]
     breed[:row][2]
-    dog = Dog.new(id, name, breed)
+    self.new(id:, name:, breed:)
   end
 
   def self.find_by_name(name)
