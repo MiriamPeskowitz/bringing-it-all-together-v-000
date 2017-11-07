@@ -85,7 +85,7 @@ class Dog
       self.new_from_db(row)
     end.first
     #first returns first el of array
-    #first(2) returns first 2 of array! 
+    #first(2) returns first 2 of array!
   end
 
   def self.find_or_create_by(name:, breed:)
